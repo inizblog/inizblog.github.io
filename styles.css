@@ -9,22 +9,34 @@ body{
   height: 200px;
   margin: 0px;
 }
+@media screen and (max-width: 480px){
+  .header{
+    height: 55px;
+  }
+}
 
 .headerimg{
   width: 1425px;
   height: auto;
   border-bottom: 2px solid black;
 }
-
-
-
-
-
+@media screen and (max-width: 480px){
+  .headerimg{
+    width: 480px;
+    height: auto;
+    border-bottom: 2px solid black;
+  }
+}
 
 .globalmenu{
   height: 80px;
   background: #f24444;
   border-bottom: 2px solid black;
+}
+@media screen and (max-width: 480px){
+  .globalmenu{
+    height: 70px;
+  }
 }
 
 .menuitems{
@@ -49,6 +61,16 @@ body{
   );
   transition: background-position ease 0.4s;
 }
+@media screen and (max-width: 480px){
+  .menuitems{
+    font-size: 13px;
+    margin-left: 10px;
+    width: 85px;
+    line-height: 22px;
+    height: 70px;
+
+  }
+}
 
 .menuitems:hover {
   background-position: 0 0;
@@ -59,13 +81,9 @@ body{
   text-decoration: none;
 }
 
-
-
-
-
 .main{
   height: auto;
-  font-size: 18px;
+  font-size: 24px;
   font-family: "Times new roman";
   width: 900px;
   padding: 70px;
@@ -75,6 +93,14 @@ body{
   border-radius: 10px;
   border-top: 3px solid black;
 }
+@media screen and (max-width: 480px){
+  .main{
+    width: 380px;
+    height: auto;
+    margin-left: 25px;
+    padding: 30px;
+  }
+}
 
 .headingtitle{
   color: black;
@@ -82,22 +108,30 @@ body{
   padding-top: 50px;
   text-align: center;
   padding-bottom: 5px;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
   margin-top: 0px;
+}
+@media screen and (max-width: 480px){
+  .headingtitle{
+    font-size: 40px;
+    width: 350px;
+    margin-left: 15px;
+  }
 }
 
 .titleonse{
   font-size: 53px;
   background: linear-gradient(transparent 40%, orangered 60%);
 }
-
-
-
-
-
+@media screen and (max-width: 480px){
+  .titleonse{
+    font-size: 55px;
+  }
+}
 
 .footer{
   height: 270px;
+  width: auto;
   background: black;
 }
 
@@ -105,6 +139,6 @@ body{
   color: white;
   font-size: 45px;
   float: left;
-  padding-left: 80px;
-  margin-top: 60px;
+  padding-left: 115px;
+  margin-top: 50px;
 }
