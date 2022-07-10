@@ -6,7 +6,7 @@ body{
 }
 @media screen and (max-width: 480px){
   {
-    width: 490px;
+    width: 480px;
   }
 }
 
@@ -136,6 +136,11 @@ body{
 .footer{
   height: 270px;
   background: black;
+}
+@media screen and (max-width: 480px){
+  {
+    width: 480px;
+  }
 }
 
 .blogname2{
