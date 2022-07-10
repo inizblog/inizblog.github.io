@@ -4,6 +4,11 @@ body{
   line-height: 60px;
   background: #f0f0ed;
 }
+@media screen and (max-width: 480px){
+  {
+    width: 480px;
+  }
+}
 
 .header{
   height: 200px;
@@ -22,7 +27,6 @@ body{
 }
 @media screen and (max-width: 480px){
   .headerimg{
-    width: 480px;
     height: auto;
     border-bottom: 2px solid black;
   }
@@ -36,7 +40,6 @@ body{
 @media screen and (max-width: 480px){
   .globalmenu{
     height: 70px;
-    width: 480px;
   }
 }
 
@@ -132,7 +135,6 @@ body{
 
 .footer{
   height: 270px;
-  width: 480px;
   background: black;
 }
 
