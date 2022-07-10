@@ -36,7 +36,7 @@ body{
 @media screen and (max-width: 480px){
   .globalmenu{
     height: 70px;
-    width: auto;
+    width: 480px;
   }
 }
 
@@ -65,10 +65,11 @@ body{
 @media screen and (max-width: 480px){
   .menuitems{
     font-size: 13px;
-    margin-left: 6px;
+    margin-left: 10px;
     width: 85px;
     line-height: 22px;
     height: 70px;
+
   }
 }
 
@@ -83,9 +84,9 @@ body{
 
 .main{
   height: auto;
-  width: 900px;
   font-size: 24px;
   font-family: "Times new roman";
+  width: 900px;
   padding: 70px;
   margin-left: 190px;
   margin-top: 70px;
@@ -131,7 +132,7 @@ body{
 
 .footer{
   height: 270px;
-  width: auto;
+  width: 480px;
   background: black;
 }
 
