@@ -11,7 +11,7 @@ body{
 }
 @media screen and (max-width: 480px){
   .header{
-    height: 45px;
+    height: 40px;
   }
 }
 
@@ -22,8 +22,8 @@ body{
 }
 @media screen and (max-width: 480px){
   .headerimg{
-    width: auto;
-    height: 60px;
+    width: 375px;
+    height: auto;
     border-bottom: 2px solid black;
   }
 }
@@ -64,11 +64,12 @@ body{
 }
 @media screen and (max-width: 480px){
   .menuitems{
-    font-size: 13px;
+    font-size: 11px;
     margin: 0px;
-    width: 85px;
-    line-height: 22px;
-    height: 70px;
+    padding-top: 10px;
+    width: 75px;
+    line-height: 18px;
+    height: 60px;
 
   }
 }
@@ -114,10 +115,13 @@ body{
 }
 @media screen and (max-width: 480px){
   .headingtitle{
+    line-height: 40px;
     font-size: 35px;
     width: auto;
     padding: 0px;
     margin: 0px;
+    padding-top: 35px;
+
   }
 }
 
