@@ -149,13 +149,10 @@ body{
 .blogname2{
   color: white;
   font-size: 45px;
-  float: left;
-  padding-left: 115px;
   margin-top: 50px;
 }
 @media screen and (max-width: 480px){
   .blogname2{
-    padding: 40px;
     font-size: 30px;
   }
 }
