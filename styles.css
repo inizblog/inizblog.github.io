@@ -136,7 +136,7 @@ body{
 }
 
 .footer{
-  height: 270px;
+  height: 220px;
   width: auto;
   background: black;
 }
@@ -150,7 +150,7 @@ body{
   text-align: center;
   color: white;
   font-size: 45px;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 @media screen and (max-width: 480px){
   .blogname2{
