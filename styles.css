@@ -30,13 +30,13 @@ body{
 
 .globalmenu{
   height: 80px;
+  width: auto;
   background: #f24444;
   border-bottom: 2px solid black;
 }
 @media screen and (max-width: 480px){
   .globalmenu{
     height: 70px;
-    width: auto;
   }
 }
 
@@ -147,6 +147,7 @@ body{
 }
 
 .blogname2{
+  text-align: center;
   color: white;
   font-size: 45px;
   margin-top: 50px;
