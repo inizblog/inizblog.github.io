@@ -6,59 +6,47 @@ body{
 }
 
 .header{
-  height: 200px;
-  margin: 0px;
+  margin-top: 0px;
+  height: 80px;
+  width: auto;
+  background: #329ba8;
+  border: 2px solid #329ba8;
 }
 @media screen and (max-width: 480px){
   .header{
-    height: 40px;
-  }
-}
-
-.headerimg{
-  width: 1425px;
-  height: auto;
-  border-bottom: 2px solid black;
-}
-@media screen and (max-width: 480px){
-  .headerimg{
-    width: 375px;
-    height: auto;
-    border-bottom: 2px solid black;
-  }
-}
-
-.globalmenu{
-  height: 80px;
-  width: auto;
-  background: #f24444;
-  border-bottom: 2px solid black;
-}
-@media screen and (max-width: 480px){
-  .globalmenu{
     height: 70px;
   }
+}
+
+.logo{
+  color: white;
+  font-size: 40px;
+  font-family: "Avenir Next";
+  float: left;
+  margin-top: 0px;
+  margin-left: 40px;
+  width: 280px;
+  padding: 10px;
+  margin-top: 5px;
 }
 
 .menuitems{
   font-family: monospace;
   font-size: 15px;
   color: black;
+  margin-top: -17px;
   list-style: none;
   float: left;
-  margin-left: 115px;
-  height: 80px;
+  height: 83px;
   width: 180px;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
   background-position: 100% 0;
   background-size: 200% auto;
   background-image: linear-gradient(
     to right,
     white 0%,
     white 50%,
-    #f24444 50%,
-    #f24444 100%
+    #329ba8 50%,
+    #329ba8 100%
   );
   transition: background-position ease 0.4s;
 }
@@ -66,7 +54,6 @@ body{
   .menuitems{
     font-size: 11px;
     margin: 0px;
-    padding-top: 10px;
     width: 75px;
     line-height: 18px;
     height: 60px;
@@ -127,7 +114,7 @@ body{
 
 .title1{
   font-size: 60px;
-  background: linear-gradient(transparent 40%, orangered 60%);
+  background: linear-gradient(transparent 40%, skyblue 60%);
 }
 @media screen and (max-width: 480px){
   .title1{
