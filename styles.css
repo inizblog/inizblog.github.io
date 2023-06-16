@@ -12,11 +12,6 @@ body{
   background: #329ba8;
   border: 2px solid #329ba8;
 }
-@media screen and (max-width: 480px){
-  .header{
-    height: 70px;
-  }
-}
 
 .logo{
   color: white;
@@ -50,18 +45,8 @@ body{
   );
   transition: background-position ease 0.4s;
 }
-@media screen and (max-width: 480px){
-  .menuitems{
-    font-size: 11px;
-    margin: 0px;
-    width: 75px;
-    line-height: 18px;
-    height: 60px;
 
-  }
-}
-
-.menuitems:hover {
+.menuitems:hover{
   background-position: 0 0;
 }
 
@@ -71,28 +56,21 @@ body{
 }
 
 .main{
-  height: auto;
-  font-size: 24px;
+  height: 500px;
+  font-size: 20px;
   font-family: "Times new roman";
   width: 900px;
   padding: 70px;
-  margin-left: 190px;
-  margin-top: 70px;
+  margin: auto;
+  margin-top: 30px;
   background: white;
   border-radius: 10px;
   border-top: 3px solid black;
 }
-@media screen and (max-width: 480px){
-  .main{
-    width: auto;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-  }
-}
 
 .headingtitle{
   color: black;
+  font-size: 50px;
   background: white;
   padding-top: 50px;
   text-align: center;
@@ -100,37 +78,11 @@ body{
   border-bottom: 2px solid black;
   margin-top: 0px;
 }
-@media screen and (max-width: 480px){
-  .headingtitle{
-    line-height: 40px;
-    font-size: 35px;
-    width: auto;
-    padding: 0px;
-    margin: 0px;
-    padding-top: 35px;
-
-  }
-}
-
-.title1{
-  font-size: 60px;
-  background: linear-gradient(transparent 40%, skyblue 60%);
-}
-@media screen and (max-width: 480px){
-  .title1{
-    font-size: 45px;
-  }
-}
 
 .footer{
   height: 220px;
   width: auto;
   background: black;
-}
-@media screen and (max-width: 480px){
-  .footer{
-    width: auto;
-  }
 }
 
 .blogname2{
@@ -138,9 +90,4 @@ body{
   color: white;
   font-size: 45px;
   padding-top: 50px;
-}
-@media screen and (max-width: 480px){
-  .blogname2{
-    font-size: 30px;
-  }
 }
